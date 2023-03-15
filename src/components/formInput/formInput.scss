@@ -1,0 +1,35 @@
+.formInput {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+    label {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    input {
+        width: 1rem;
+        height: 30px;
+        font-size: 14px;
+        margin: 10px 0;
+        // border: 1px solid #333;
+        border: none;
+        border-bottom: 1px solid #333;
+        outline: none;
+        background: transparent;
+
+        &::placeholder {
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+
+    span {
+        display: none;
+        font-size: 12px;
+        padding-top: 5px;
+        text-align: center;
+        color: red;
+    }
+}

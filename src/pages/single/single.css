@@ -1,0 +1,92 @@
+.single {
+    display: flex;
+    width: 100%;
+}
+
+.singleContainer {
+    flex: 6;
+}
+
+.singleContainer .top {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.singleContainer .top .title {
+    font-size: 16px;
+    color: lightgray;
+    margin-bottom: 20px;
+}
+
+.singleContainer .top .left {
+    flex: 1;
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    position: relative;
+}
+
+.singleContainer .top .left .editButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 12px;
+    color: #7451f8;
+    background-color: #7551f818;
+    cursor: pointer;
+    border-radius: 0px 0px 0px 5px;
+}
+
+.singleContainer .top .left .item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.singleContainer .top .left .item .itemImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.singleContainer .top .left .item .details .itemTitle {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.singleContainer .top .left .item .details .detailItem {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.singleContainer .top .left .item .details .detailItem .itemKey {
+    font-weight: bold;
+    color: gray;
+    margin-right: 5px;
+}
+
+.singleContainer .top .left .item .details .itemTitle {
+    font-weight: 300;
+}
+
+.singleContainer .top .right {
+    flex: 2;
+}
+
+/* .singleContainer .top .right .chart{
+    padding: 20px 0;
+} */
+
+.singleContainer .bottom {
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    margin: 10px 20px;
+    padding: 20px;
+}
+
+.singleContainer .title {
+    font-size: 16px;
+    color: lightgray;
+    margin-bottom: 20px;
+}
